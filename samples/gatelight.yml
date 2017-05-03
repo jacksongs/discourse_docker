@@ -53,13 +53,13 @@ env:
 
   ## TODO: List of comma delimited emails that will be made admin and developer
   ## on initial signup example 'user1@example.com,user2@example.com'
-  DISCOURSE_DEVELOPER_EMAILS: 'jacksongs@gmail.com'
+  DISCOURSE_DEVELOPER_EMAILS: {{DISCOURSE_DEVELOPER_EMAILS}}
 
   ## TODO: The SMTP mail server used to validate new accounts and send notifications
   DISCOURSE_SMTP_ADDRESS: smtp.mailgun.org         # required
   #DISCOURSE_SMTP_PORT: 587                        # (optional, default 587)
-  DISCOURSE_SMTP_USER_NAME: postmaster@aphmedia.com      # required
-  DISCOURSE_SMTP_PASSWORD: e5ad126d2e9deaa66160252ef74ea25b               # required, WARNING the char '#' in pw can cause problems!
+  DISCOURSE_SMTP_USER_NAME: postmaster@mail.gatelight.org      # required
+  DISCOURSE_SMTP_PASSWORD: b4108e889b7f6b2b69b55844773f5d41               # required, WARNING the char '#' in pw can cause problems!
   #DISCOURSE_SMTP_ENABLE_START_TLS: true           # (optional, default true)
 
   ## If you added the Lets Encrypt template, uncomment below to get a free SSL certificate
